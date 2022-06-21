@@ -5,8 +5,8 @@ function Footer () {
         <footer>
             <h3>Created by Jef Ogues</h3>
             <div>
-              <a href="#">Github</a>  
-              <a href="#">jef.ogu@gmail.com</a>
+              <p href="#">Github</p>  
+              <p href="#">jef.ogu@gmail.com</p>
             </div>
         </footer>
     )

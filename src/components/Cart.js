@@ -17,7 +17,7 @@ function Cart (props) {
                                     <p className="item-card-qty"> {item.qty}</p>
                                     <button className="cart-btn" onClick={() => updateDelete(item.name)}>-</button>
                                 </div>
-                                <a href="#" onClick={() => removeItem(item.name)}>Remove</a>
+                                <p href="#" onClick={() => removeItem(item.name)}>Remove</p>
                             </div>
                         </div>
                     )         
