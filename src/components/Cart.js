@@ -17,7 +17,7 @@ function Cart (props) {
                                     <p className="item-card-qty"> {item.qty}</p>
                                     <button className="cart-btn" onClick={() => updateDelete(item.name)}>-</button>
                                 </div>
-                                <a href="#" onClick={() => removeItem(item.name)}>remove</a>
+                                <a href="#" onClick={() => removeItem(item.name)}>Remove</a>
                             </div>
                         </div>
                     )         
@@ -36,7 +36,7 @@ function Cart (props) {
                         <td className="cart-total-bold">${cartTotal.toFixed(2)}</td>
                     </tr>
                 </table>
-                <button className="cart-btn-checkout">CheckOut</button>
+                <button className="cart-btn-checkout">Check Out</button>
             </div>
 
         </section>

@@ -7,6 +7,7 @@
 .cart {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 .item-container {
@@ -22,7 +23,7 @@
 }
 
 .item-card {
-    border: 1px solid black;
+    border-top: 1px solid #023047;
     /* padding: 25px;
     width: 250px;
     height: 250px; */
@@ -32,10 +33,10 @@
 }
 
 .item-card-info {
-    background-color: aliceblue;
+    background-color: #219ebc;
     padding-top: 10px;
     padding-bottom: 20px;
-    border-top: 1px solid black;
+    border-top: 1px solid #023047;
 }
 
 .item-card-name {
@@ -68,7 +69,7 @@
     font-size: 1.5rem;
     cursor: pointer;
     border-radius: 50%;
-    border: 1px solid black;
+    border-top: 1px solid #023047;
 }
 
 .cart-btn-info {
@@ -82,9 +83,10 @@
     height: 200px;
     margin-top: 15px;
     padding: 10px;
-    border: 1px solid black;
+    border-top: 1px solid #023047;
     border-radius: 10px;    
     text-align: center;
+    background-color: #219ebc;
 }
 
 .cart-totals-info {
@@ -107,3 +109,25 @@
 table {
     width: 100%;
 }
+
+button {
+    background-color: #ffb703;
+    outline: none;
+    border: none;
+    color: #023047;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fb8500;
+
+}
+
+/* Color Pallete */
+/* 
+8ecae6 - navy blue
+219ebc - light blue
+023047 - dark blue
+ffb703 - gold
+fb8500 - orange
+*/

@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Shop from './components/Shop';
 import Cart from './components/Cart';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -79,6 +80,7 @@ function App() {
         <Route path='/shop' element={<Shop addItem={addItem} />}/>
         <Route path='/cart' element={<Cart cartTotal={cartTotal} cartItems={cartItems} updateAdd={updateAdd} updateDelete={updateDelete} removeItem={removeItem} itemsInCart={itemsInCart} />}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }

@@ -7,7 +7,7 @@ function Header(props) {
     const {cartItemTotal} = props
     return (
         <header>
-            <p>OP Plush</p>
+            <h1>OP Plush Store</h1>
             <ul>
                 <li>
                     <Link to='/'>Home</Link>
@@ -16,7 +16,12 @@ function Header(props) {
                     <Link to='/shop'>Shop</Link>
                 </li>
                 <li>
-                    <Link to='/cart'>Cart: {cartItemTotal}</Link>
+                    
+
+                    <Link to='/cart'>                    
+                        <i class="fa" >&#xf07a;</i>
+                        <span class='badge badge-warning' id='lblCartCount'> {cartItemTotal} </span> 
+                    </Link>
                 </li>
             </ul>
         </header>
