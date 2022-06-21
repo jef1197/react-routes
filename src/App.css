@@ -39,8 +39,9 @@ header li a {
   text-decoration: none;
   margin: 5px 15px;
   color: #fb8500;
-
+  cursor: pointer;
 }
+
 header li a:hover {
   background-color: #ffb703;
   color: #023047;
@@ -56,6 +57,7 @@ footer {
 footer p {
   color: #fb8500;
   text-decoration: none;
+  cursor: pointer;
 }
 
 footer div {
@@ -83,6 +85,10 @@ footer div {
   width: 90%;
   border-radius: 10px;
   background-color:rgba(33, 156, 186, 0.5);
+}
+
+#removeBtn{
+  cursor: pointer;
 }
 
 /* Color Pallete */
